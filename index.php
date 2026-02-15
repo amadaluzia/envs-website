@@ -1,6 +1,5 @@
 <?php
-$mymainsite = "https://amadaluzia.is-a.dev"
-?>
+$mymainsite = 'https://amadaluzia.is-a.dev'; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -52,7 +51,7 @@ $mymainsite = "https://amadaluzia.is-a.dev"
                     things. Things I read and write include software, books,
                     screenplays, etc. You can find me in a lot of places on
                     the internet. If you want a proper introduction, visit
-                    <a href="<?=$mymainsite?>">my main website instead.</a>
+                    <a href="<?= $mymainsite ?>">my main website instead.</a>
                 </p>
             </main>
             <footer>

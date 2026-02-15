@@ -1,19 +1,20 @@
 {
-  "name": "amadaluzia-php",
-  "version": "1.0.0",
-  "description": "My website written in PHP and jQuery",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier . -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://codeberg.org/amadaluzia/website-php"
-  },
-  "author": "Artur Manuel",
-  "license": "EUPL-1.2",
-  "dependencies": {
-    "prettier": "^3.8.1"
-  }
+    "name": "amadaluzia-php",
+    "version": "1.0.0",
+    "description": "My website written in PHP and jQuery",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier . -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://codeberg.org/amadaluzia/website-php"
+    },
+    "author": "Artur Manuel",
+    "license": "EUPL-1.2",
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.24.0",
+        "prettier": "^3.8.1"
+    }
 }
