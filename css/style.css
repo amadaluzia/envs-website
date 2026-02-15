@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 html {
@@ -15,28 +15,29 @@ html {
   padding: 1rem;
 }
 
-main, footer {
+main,
+footer {
   width: 700px;
   align-self: center;
 }
 
 footer {
-    font-size: 9pt;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  font-size: 9pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-    background: #cee0fd;
-    padding: 1rem;
-    overflow: auto;
-    white-space: nowrap;
+  background: #cee0fd;
+  padding: 1rem;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 nav {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 a:link {
@@ -44,7 +45,8 @@ a:link {
 }
 
 @media only screen and (max-width: 700px) {
-  main, footer {
+  main,
+  footer {
     width: 97%;
   }
 }
