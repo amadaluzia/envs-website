@@ -1,7 +1,7 @@
 <?php
 $pages = [
     'Home' => '/',
-    'Anti-Devuan Propaganda' => '/fuck-devuan.php',
+    'A very boring page' => '/a-very-boring-page.php',
 ]; ?>
 <nav>
     <?php foreach ($pages as $name => $dest) {
